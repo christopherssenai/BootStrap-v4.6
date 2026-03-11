@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Incluir Incidente</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="sidebar">
+                <h2>SafeIncident</h2>
+
+                <a href="dashboard.html">Dashboard</a>
+                <a href="incidente.html">Cadastrar Incidente</a>
+                <a href="relatorio.html">Relatório</a>
+                <a href="#">Usuário</a>
+                <a href="login.html">Sair</a>
+            </div>
+
+            <div class="main">
+
+                <div class="form-box">
+                    <h3>Incluir Incidente</h3>
+
+                    <select>
+                        <option>Tipo de incidente</option>
+                        <option>Phishing</option>
+                        <option>Malware</option>
+                        <option>Ransomware</option>
+                        <option>Spam</option>
+                    </select>
+
+                    <select>
+                        <option>Sistema afetado</option>
+                        <option>Email</option>
+                        <option>Servidor</option>
+                        <option>Computador do usuário</option>
+                    </select>
+
+                    <select>
+                        <option>Como foi identificado?</option>
+                        <option>Relato de usuário</option>
+                        <option>Monitoramento automático</option>
+                        <option>Antivírus</option>
+                    </select>
+
+                    <textarea placeholder="Descrição"></textarea>
+
+                    <input type="file">
+
+                    <button class="btn">Incluir</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>

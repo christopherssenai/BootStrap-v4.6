@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="sidebar">
+            <h2>SafeIncident</h2>
+
+            <a href="dashboard.html">Dashboard</a>
+            <a href="incidente.html">Cadastrar Incidente</a>
+            <a href="relatorio.html">Relatório</a>
+            <a href="#">Usuário</a>
+            <a href="login.html">Sair</a>
+        </div>
+
+        <div class="main">
+
+            <div class="form-box">
+                <h3>Relatório Analítico</h3>
+
+                <select>
+                    <option>Período</option>
+                    <option>Últimos 7 dias</option>
+                    <option>Últimos 30 dias</option>
+                    <option>Este mês</option>
+                </select>
+
+                <select>
+                    <option>Tipo de incidente</option>
+                    <option>Phishing</option>
+                    <option>Malware</option>
+                </select>
+
+                <select>
+                    <option>Sistemas afetados</option>
+                    <option>Email</option>
+                    <option>Servidor</option>
+                </select>
+
+                <select>
+                    <option>Status do incidente</option>
+                    <option>Analisar</option>
+                    <option>Em processo</option>
+                    <option>Resolvido</option>
+                </select>
+
+                <select>
+                    <option>Nível de risco</option>
+                    <option>Baixo</option>
+                    <option>Médio</option>
+                    <option>Alto</option>
+                </select>
+
+                <button class="btn">Exportar PDF</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
